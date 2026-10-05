@@ -1,0 +1,20 @@
+/* Custom Styles to complement Tailwind */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional hover effects or specific overrides that are easier in CSS */
+.mobile-link {
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.mobile-link:last-child {
+    border-bottom: none;
+}
